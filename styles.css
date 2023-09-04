@@ -41,6 +41,8 @@ a {
   justify-content: space-evenly;
   width: 45%;
   margin-right: 120px;
+  margin-top: 15px;
+
 }
 .my-btn-0 {
   font-size: 12px !important;
@@ -69,7 +71,7 @@ a {
   font-size: 10px;
 }
 main {
-  background-color: rgb(235, 228, 228);
+  background-color: white !important;
   width: 100%;
   padding: 60px;
   display: flex;
@@ -77,6 +79,7 @@ main {
 }
 .section-1 {
   margin-top: 50px;
+ 
 }
 .upper-part {
   height: 196px;
@@ -105,7 +108,9 @@ span {
   justify-content: space-around;
   align-items: center;
   margin-top: -30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+   border: 1px solid #E2E2E2 ;
+   box-shadow: 5px 5px 90px lightgrey;
 }
 .made {
   background-color: white;
@@ -115,6 +120,8 @@ span {
   justify-content: center;
   align-items: center;
   border-radius: 40px;
+  box-shadow: 5px 5px 90px lightgrey;
+ 
 }
 .section-3 {
   width: 415px;
@@ -127,6 +134,7 @@ span {
   border-radius: 10px;
   margin-left: 180px;
    font-style: italic;
+   box-shadow: 5px 5px 50px #FFF2E2;
 }
 form {
   display: flex;
@@ -299,6 +307,10 @@ td {
 .all-img img {
   margin-inline: 40px;
 }
+.all-img{
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
 .footer-section {
   height: 900px;
   display: flex;
@@ -316,7 +328,7 @@ td {
 .alumini-1 {
   height: 260px;
   width: 398px;
-  border: 1px solid black;
+  
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -326,7 +338,7 @@ td {
 .alumini-2 {
   height: 357px;
   width: 398px;
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -336,7 +348,7 @@ td {
 .alumini-3 {
   width: 398px;
   height: 309px;
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -346,7 +358,7 @@ td {
 .alumini-4 {
   width: 398px;
   height: 309px;
-  border: 1px solid black;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -356,7 +368,7 @@ td {
 .alumini-5 {
   height: 213px;
   width: 398px;
-  border: 1px solid black;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -367,7 +379,7 @@ td {
 .alumini-6 {
   height: 261px;
   width: 398px;
-  border: 1px solid black;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -398,8 +410,9 @@ td {
 }
 .alumini-1,.alumini-2,.alumini-3,.alumini-4,.alumini-5,.alumini-6{
     border-radius: 10px;
-    background-color: white;
-    border: 2px solid #D7D7D7;
+    
+   border: 1px solid #D7D7D7;
+    box-shadow: 5px 5px 100px lightgrey;
 }
 .some{
      font-style: italic;
